@@ -9,3 +9,7 @@ function tarifaPorKilovatio() {
 let cargoFijo = function() {
     return 4800;
 }
+
+let valorIva = function() {
+    return 0.19;
+}
