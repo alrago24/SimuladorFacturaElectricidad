@@ -22,5 +22,8 @@ let valorIvaAplicado = () => {
     return subTotalTarifa() * porcentajeIva();
 }
 
+let totalAPagar = () => {
+    return subTotalTarifa() + valorIvaAplicado() + cargoFijo();
+}
 
 
