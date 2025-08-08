@@ -13,3 +13,7 @@ let cargoFijo = function() {
 let valorIva = function() {
     return 0.19;
 }
+
+let subTotalTarifa = () => {
+    return consumoMensual()* tarifaPorKilovatio();
+}
